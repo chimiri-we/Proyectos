@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Proyectos" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:statusBarColor">@color/primaryColor</item>
+        <item name="android:windowBackground">@color/white_smoke</item>
+    </style>
+
+
+    <style name="Theme.ConNavigationDrawer" parent="Theme.Proyectos"/>
+
+
+    <style name="Theme.Proyectos.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Proyectos.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Proyectos.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.TranslucentSystemBars" parent="Theme.Proyectos.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+
+
+    </style>
+
+    <style name="HeaderBar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:elevation">@dimen/card_elevation</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="SplashThemeCorrect" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+        <!--        <item name="windowActionBar">false</item>-->
+        <!--        <item name="windowNoTitle">true</item>-->
+
+        <item name="android:windowFullscreen">true</item>
+        <!--        <item name="android:windowContentOverlay">@null</item>-->
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+    <dimen name="card_elevation">10dp</dimen>
+</resources>

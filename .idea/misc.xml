@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/font/lato_light.xml" value="0.21927083333333333" />
+        <entry key="app/src/main/res/font/open_sans.xml" value="0.21927083333333333" />
+        <entry key="app/src/main/res/layout/actividad_configuracion.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/actividad_detalle_perfil.xml" value="0.20485327313769752" />
+        <entry key="app/src/main/res/layout/actividad_principal.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/cabecera_drawer.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/contenido_principal.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/content_login.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/content_perfil.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/dialogo_direccion.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_empresas_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_final.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_historial_laboral.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/fragment_registro.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/fragment_registro_direccion.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/fragment_registro_imagen.xml" value="0.22037037037037038" />
+        <entry key="app/src/main/res/layout/fragmento_cuenta.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/fragmento_grupo_items.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/fragmento_paginado.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/fragmento_perfil.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/fragmento_tarjetas.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/item_list_cliente.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout/item_lista_direccion.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/layout/list_item_cliente.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/detail.xml" value="0.1890625" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/menu/menu_drawer.xml" value="0.46990291262135925" />
+        <entry key="app/src/main/res/xml/preferencias.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

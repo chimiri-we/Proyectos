@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.RegistroImagenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="@dimen/fragment_horizontal_margin"
+        android:paddingTop="@dimen/fragment_horizontal_margin"
+        android:paddingRight="@dimen/fragment_horizontal_margin"
+        android:paddingBottom="@dimen/fragment_horizontal_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/issue_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_circle_gray_line"
+
+            android:drawableLeft="@android:drawable/stat_sys_upload"
+            android:drawablePadding="8dp"
+            android:onClick="onClick"
+            android:padding="12dp"
+            android:text="Guardar foto"
+            android:textColor="#455A64"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/issue_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/add_photo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_circle_gray_line"
+            android:drawableLeft="@android:drawable/stat_sys_upload"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Actualizar foto"
+            android:textColor="#455A64"
+            app:layout_constraintBottom_toTopOf="@id/issue_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/issue_photo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="16dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_photo_button"
+            tools:src="@color/colorPrimary" />
+
+        <ImageButton
+            android:id="@+id/remove_photo_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignTop="@+id/issue_photo"
+            android:layout_alignEnd="@+id/issue_photo"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/issue_photo"
+            app:layout_constraintEnd_toEndOf="@+id/issue_photo"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/issue_photo"
+            app:layout_constraintTop_toTopOf="@+id/issue_photo"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_user"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/ubi_uno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_photo_button"
+            android:layout_weight="1"
+            android:drawableLeft="@android:drawable/stat_sys_upload"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="utilizar ubicacion "
+            android:textColor="#455A64"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loading_registro_img"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</FrameLayout>
